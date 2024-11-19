@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English menu</title>
+
+    <style>
+        .table-container {
+          display: flex;  /* 启用 Flexbox 布局 */
+          justify-content: space-around;  /* 表格之间均匀分布 */
+        }
+        table {
+          border-collapse: collapse;
+          width: 30%;  /* 设置每个表格的宽度 */
+          margin: 10px;  /* 给表格之间添加间隔 */
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: center;
+        }
+        .table-container {
+            width: 100%;  /* 容器宽度占满父元素 */
+            overflow-x: auto;  /* 启用水平滚动 */
+            margin: 20px 0;  /* 添加一些外边距 */
+        }
+
+        table {
+            width: 100%;  /* 表格宽度占满容器 */
+            border-collapse: collapse;  /* 边框合并 */
+        }
+
+        th, td {
+            border: 1px solid #ddd;  /* 表格单元格边框 */
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        /* 响应式调整 - 小屏设备 */
+        @media (max-width: 768px) {
+            th, td {
+                padding: 12px 8px;  /* 增加表格单元格的内边距 */
+            }
+        }
+      </style>
+</head>
+<body>
+    <h1>祥瑞坊</h1>
+    <div class="table-container">
+        <table>
+          <thead>
+            <tr><th>Number</th><th>English dish names</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sliced Beef and Offals in Chilli Sauce</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mouthwatering Chicken (Sichuan-style spicy cold chicken)
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Marinated Chicken Gizzards</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Century Egg</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Century Egg with Tofu</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Sausage</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Edamame (Boiled Soybeans)</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bamboo Shoots</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pickled Mustard Greens</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Spicy Kimchi</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Shredded Potato Salad/td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Garlic Cucumber Salad</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>Char Siu (Chinese BBQ Pork)</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Seafood Salad</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Garlic Bitter Melon Salad</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Marinated Jellyfish</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Stewed Duck</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Fried Shrimp Chips</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td>French Fries</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>Fried River Shrimp</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td>Fried Chicken Wings</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td>Fried Chicken Cartilage</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td>Marinated Dried Tofu</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td>Braised Beef in Soy Sauce</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td>Marinated Beef Tripe</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td>Spicy and Numbing Peanuts</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td>Braised Pig's Trotters</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td>Fried Pig’s Liver</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td>Chilled Tomato Salad</td>
+</tr>
+<tr>
+  <td>31</td>
+  <td>Bang Bang Chicken (Sichuan-style cold chicken)</td>
+</tr>
+<tr>
+  <td>32</td>
+  <td>Char Siu with Scallions</td>
+</tr>
+<tr>
+  <td>33</td>
+  <td>Fried Squid Tentacles</td>
+</tr>
+<tr>
+  <td>34</td>
+  <td>Marinated Pig's Ear with Cucumber</td>
+</tr>
+<tr>
+  <td>35</td>
+  <td>Scallion Oil Chicken</td>
+</tr><tr>
+  <td>36</td>
+  <td>Three Appetizer Platter</td>
+</tr>
+<tr>
+  <td>37</td>
+  <td>Peking Duck</td>
+</tr>
+<tr>
+  <td>38</td>
+  <td>Crispy Sweet and Sour Pork</td>
+</tr>
+<tr>
+  <td>39</td>
+  <td>Shredded Pork in Beijing-style Soybean Paste</td>
+</tr>
+<tr>
+  <td>40</td>
+  <td>Pork Liver with Leeks</td>
+</tr>
+<tr>
+  <td>41</td>
+  <td>Shredded Pork with Garlic Shoots</td>
+</tr>
+<tr>
+  <td>42</td>
+  <td>Twice-cooked Pork</td>
+</tr>
+<tr>
+  <td>43</td>
+  <td>Shredded Pork with Green Peppers</td>
+</tr>
+<tr>
+  <td>44</td>
+  <td>Sweet and Sour Pork</td>
+</tr><tr>
+  <td>45</td>
+  <td>Dongpo Pork (Braised Pork Belly)</td>
+</tr>
+<tr>
+  <td>46</td>
+  <td>Ginger Braised Pork</td>
+</tr>
+<tr>
+  <td>47</td>
+  <td>Stir-fried Pork Intestines</td>
+</tr>
+<tr>
+  <td>48</td>
+  <td>Shredded Beef with Green Peppers</td>
+</tr>
+<tr>
+  <td>49</td>
+  <td>Black Vinegar Ribs</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>Spicy Boiled Beef</td>
+</tr>
+<tr>
+  <td>51</td>
+  <td>Spicy Boiled Fish</td>
+</tr>
+<tr>
+  <td>52</td>
+  <td>Spicy Boiled Sliced Pork</td>
+</tr>
+<tr>
+  <td>53</td>
+  <td>Spicy Boiled Pork Intestines</td>
+  <tr>
+    <td>54</td>
+    <td>Fish-flavored Shredded Pork</td>
+  </tr>
+  <tr>
+    <td>55</td>
+    <td>Fried Chicken Nuggets</td></tr>
+  <tr>
+    <td>56</td>
+    <td>Black Vinegar Chicken</td></tr>
+  <tr>
+    <td>57</td>
+    <td>Cashew Chicken</td>
+  </tr>
+  <tr>
+    <td>58</td>
+    <td>Black Pepper Chicken</td>
+  </tr>
+</tr>
+          </tbody>
+        </table>
+        
+        <table>
+          <thead>
+            <tr><th>Number</th><th>English dish names</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>59</td>
+              <td>Oil-splashed Chicken</td>
+            </tr>
+            <tr>
+              <td>60</td>
+              <td>Sichuan Spicy Chicken</td>
+            </tr>
+            <tr>
+              <td>61</td>
+              <td>Black Pepper Beef</td>
+            </tr>
+            <tr>
+              <td>62</td>
+              <td>Spicy and Numbing Beef Tripe</td>
+            </tr>
+            <tr>
+              <td>63</td>
+              <td>Oyster Sauce Beef</td>
+            </tr>
+            <tr>
+              <td>64</td>
+              <td>Cumin Lamb</td>
+            </tr>
+            <tr>
+              <td>66</td>
+              <td>Red-braised Pork Riblets</td>
+            </tr>
+            <tr>
+              <td>67</td>
+              <td>Garlic-flavored Prawns</td>
+            </tr>
+            <tr>
+              <td>68</td>
+              <td>Prawns with Rich Sauce</td>
+            </tr>
+            <tr>
+              <td>69</td>
+              <td>Dry-fried Prawns</td>
+            </tr>
+            <tr>
+              <td>70</td>
+              <td>Stir-fried Squid with Celery</td>
+            </tr>
+            <tr>
+              <td>71</td>
+              <td>Shrimp and Broccoli</td>
+            </tr>
+            <tr>
+              <td>72</td>
+              <td>Sweet and Sour White Fish</td>
+            </tr><tr>
+              <td>73</td>
+              <td>Shrimp and Scrambled Eggs</td>
+            </tr>
+            <tr>
+              <td>74</td>
+              <td>Fried Garlic Cloves</td>
+            </tr>
+            <tr>
+              <td>75</td>
+              <td>Stir-fried Three Delicacies (Shrimp, Squid, and Pork)</td>
+            </tr><tr>
+              <td>76</td>
+              <td>Salt and Pepper Prawns</td>
+            </tr>
+            <tr>
+              <td>77</td>
+              <td>Red-braised Abalone</td>
+            </tr>
+            <tr>
+              <td>78</td>
+              <td>Seafood Eight-Treasure Vegetables</td>
+            </tr><tr>
+              <td>79</td>
+              <td>Dry-fried Prawns with Scrambled Eggs</td>
+            </tr>
+            <tr>
+              <td>80</td>
+              <td>Spicy and Fragrant Prawns</td>
+            </tr>
+            <tr>
+              <td>81</td>
+              <td>Crab Meat with Egg Whites</td>
+            </tr><tr>
+              <td>82</td>
+              <td>Crab Meat with Choy Sum (Chinese Broccoli)</td>
+            </tr>
+            <tr>
+              <td>83</td>
+              <td>Stir-fried Pork Liver with Leeks</td>
+            </tr>
+            <tr>
+              <td>84</td>
+              <td>Stir-fried Fresh Scallops with XO Sauce</td>
+            </tr>
+            <tr>
+              <td>85</td>
+              <td>Dry-fried Ribbon Fish</td>
+            </tr>
+            <tr>
+              <td>86</td>
+              <td>Sweet and Sour Ribbon Fish</td>
+            </tr>
+            <tr>
+              <td>87</td>
+              <td>Red-braised Ribbon Fish</td>
+            </tr>
+            <tr>
+              <td>88</td>
+              <td>Mapo Tofu</td>
+            </tr>
+            <tr>
+              <td>89</td>
+              <td>Stir-fried Eggs with Leeks</td>
+            </tr>
+            <tr>
+              <td>91</td>
+              <td>Stir-fried Shredded Potatoes</td>
+            </tr>
+            <tr>
+              <td>92</td>
+              <td>Stir-fried Wild Vegetables with Meat</td>
+            </tr>
+            <tr>
+              <td>93</td>
+              <td>Stir-fried Bok Choy</td>
+            </tr>
+            <tr>
+              <td>94</td>
+              <td>Mapo Eggplant</td>
+            </tr>
+            <tr>
+              <td>95</td>
+              <td>Stir-fried Bean Sprouts</td>
+            </tr>
+            <tr>
+              <td>96</td>
+              <td>Home-style Tofu</td>
+            </tr>
+            <tr>
+              <td>97</td>
+              <td>Bitter Melon Stir-fried with Eggs</td>
+            </tr>
+            <tr>
+              <td>98</td>
+              <td>Mu Shu Pork</td>
+            </tr>
+            <tr>
+              <td>99</td>
+              <td>Salt and Pepper Eggplant</td>
+            </tr>
+            <tr>
+              <td>100</td>
+              <td>Fish-flavored Eggplant</td>
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>Stir-fried Tomatoes and Eggs</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Soy Sauce Vermicelli</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>Dry-fried Green Beans</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>Earth Three Delicacies (Potatoes, Eggplant, and Peppers)</td>
+            </tr>
+            <tr>
+              <td>105</td>
+              <td>Sour Cabbage Stir-fried Vermicelli</td>
+            </tr>
+            <tr>
+              <td>106</td>
+              <td>Spicy Green Pepper and Dried Tofu</td>
+            </tr>
+            <tr>
+              <td>107</td>
+              <td>Spicy Hot Pot (Mala Tang)</td>
+            </tr>
+            <tr>
+              <td>108</td>
+              <td>Mapo Vermicelli</td>
+            </tr>
+            <tr>
+              <td>109</td>
+              <td>Iron Plate Spicy Pork Intestines</td>
+            </tr>
+            <tr>
+              <td>111</td>
+              <td>Iron Plate Cumin Chicken Gizzards</td>
+            </tr>
+            <tr>
+              <td>112</td>
+              <td>Iron Plate Black Pepper Beef</td>
+            </tr>
+            <tr>
+              <td>113</td>
+              <td>Iron Plate Oysters</td>
+            </tr>
+            <tr>
+              <td>114</td>
+              <td>Stone Pot Mapo Tofu</td>
+            </tr>
+            <tr>
+              <td>115</td>
+              <td>Stone Pot Spicy Kimchi Tofu</td>
+            </tr>
+            <tr>
+              <td>116</td>
+              <td>Spicy Stone Pot Pork Intestines</td>
+            </tr>
+            <tr>
+              <td>117</td>
+              <td>Spicy Stone Pot Chicken Pieces</td>
+            </tr>
+            <tr>
+              <td>118</td>
+              <td>Chicken and Wild Vegetables Earthen Pot</td>
+            </tr>
+            <tr>
+              <td>119</td>
+              <td>Pork and Wild Vegetables Spring Rain Mala Pot</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table>
+          <thead>
+            <tr><th>Number</th><th>English dish names</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>120</td>
+              <td>Ribs and Sauerkraut Pot</td>
+            </tr>
+            <tr>
+              <td>121</td>
+              <td>Spicy Beef Brisket Pot</td>
+            </tr>
+            <tr>
+              <td>122</td>
+              <td>Spicy Chicken and Wild Vegetables Earthen Pot</td>
+            </tr>
+            <tr>
+              <td>123</td>
+              <td>Spicy Pork Intestines Earthen Pot</td>
+            </tr>
+            <tr>
+              <td>124</td>
+              <td>Five-Treasure Seafood Noodles</td>
+            </tr>
+            <tr>
+              <td>125</td>
+              <td>Five-Treasure Seafood Fried Noodles</td>
+            </tr>
+            <tr>
+              <td>126</td>
+              <td>Soy Sauce Fried Noodles</td>
+            </tr>
+            <tr>
+              <td>127</td>
+              <td>Shanghai Fried Noodles</td>
+            </tr><tr>
+              <td>128</td>
+              <td>Seafood Rice Noodles</td>
+            </tr>
+            <tr>
+              <td>129</td>
+              <td>Seafood Soup Noodles</td>
+            </tr>
+            <tr>
+              <td>130</td>
+              <td>Tomato Vegetable Soup</td>
+            </tr><tr>
+              <td>131</td>
+              <td>Wonton Soup</td>
+            </tr>
+            <tr>
+              <td>132</td>
+              <td>Corn Soup</td>
+            </tr>
+            <tr>
+              <td>133</td>
+              <td>Hot and Sour Soup</td>
+            </tr>
+            <tr>
+              <td>134</td>
+              <td>Shark Fin Soup</td>
+            </tr>
+            <tr>
+              <td>135</td>
+              <td>Spicy Beef Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>136</td>
+              <td>Stone Pot Mapo Tofu Knife-cut Noodles</td>
+            </tr><tr>
+              <td>138</td>
+              <td>Char Siu with Scallions Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>139</td>
+              <td>Tomato Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>140</td>
+              <td>Hot and Sour Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>141</td>
+              <td>Beef Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>142</td>
+              <td>Shark Fin Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>143</td>
+              <td>Fried Sauce Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>144</td>
+              <td>Three Shreds Stir-fried Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>145</td>
+              <td>Sauerkraut Stir-fried Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>146</td>
+              <td>Seafood Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>147</td>
+              <td>braised Ribs Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>148</td>
+              <td>Stir-fried Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>149</td>
+              <td>Mapo Tofu Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>150</td>
+              <td>Chicken Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>151</td>
+              <td>Five-Treasure Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>152</td>
+              <td>Dan Dan Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>153</td>
+              <td>Garlic-flavored Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>154</td>
+              <td>Wild Vegetables Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>155</td>
+              <td>Miso Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>156</td>
+              <td>Chicken Cutlet Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Soy Sauce Vermicelli</td>
+            </tr>
+            <tr>
+              <td>157</td>
+              <td>Spicy Knife-cut Noodles</td>
+            </tr>
+            <tr>
+              <td>158</td>
+              <td>Crab Meat Fried Rice</td>
+            </tr>
+            <tr>
+              <td>159</td>
+              <td>Shark Fin Braised Rice</td>
+            </tr>
+            <tr>
+              <td>160</td>
+              <td>Assorted Char Siu Fried Rice</td>
+            </tr>
+            <tr>
+              <td>161</td>
+              <td>Pickled Mustard Greens Fried Rice</td>
+            </tr>
+            <tr>
+              <td>162</td>
+              <td>Black Soy Sauce Fried Rice</td>
+            </tr>
+            <tr>
+              <td>163</td>
+              <td>Spicy Kimchi Fried Rice</td>
+            </tr>
+            <tr>
+              <td>164</td>
+              <td>Spicy Fried Rice</td>
+            </tr>
+            <tr>
+              <td>165</td>
+              <td>Braised Pork Fried Rice</td>
+            </tr>
+            <tr>
+              <td>166</td>
+              <td>XO Sauce Fried Rice</td>
+            </tr>
+            <tr>
+              <td>167</td>
+              <td>Assorted Seafood Fried Rice</td>
+            </tr>
+            <tr>
+              <td>168</td>
+              <td>Mapo Tofu Rice Bowl</td>
+            </tr>
+            <tr>
+              <td>169</td>
+              <td>Shredded Meat Rice Bowl</td>
+            </tr>
+            <tr>
+              <td>170</td>
+              <td>Tianjin Rice Bowl</td>
+            </tr>
+            <tr>
+              <td>171</td>
+              <td>Chinese-style Rice Bowl</td>
+            </tr>
+            <tr>
+              <td>172</td>
+              <td>Handmade Iron Plate Dumplings</td>
+            </tr>
+            <tr>
+              <td>173</td>
+              <td>Handmade Pan-fried Dumplings</td>
+            </tr>
+            <tr>
+              <td>174</td>
+              <td>Soup Dumplings (Xiao Long Bao)</td>
+            </tr>
+            <tr>
+              <td>175</td>
+              <td>Radish Cake</td>
+            </tr>
+            <tr>
+              <td>177</td>
+              <td>Dumplings (Boiled)</td>
+            </tr>
+            <tr>
+              <td>178</td>
+              <td>Spicy and Numbing Dumplings</td>
+            </tr>
+            <tr>
+              <td>179</td>
+              <td>Spring Rolls</td>
+            </tr>
+            <tr>
+              <td>180</td>
+              <td>Shumai (Steamed Dumplings)</td>
+            </tr>
+            <tr>
+              <td>181</td>
+              <td>Sesame Balls</td>
+            </tr>
+            <tr>
+              <td>182</td>
+              <td>Scallion Pancake</td>
+            </tr>
+            <tr>
+              <td>183</td>
+              <td>Peach-shaped Steamed Buns</td>
+            </tr>
+            <tr>
+              <td>184</td>
+              <td>Fried Mini Steamed Buns</td>
+            </tr>
+            <tr>
+              <td>185</td>
+              <td>Fried Wontons</td>
+            </tr>
+            <tr>
+              <td>186</td>
+              <td>Almond Tofu</td>
+            </tr>
+            <tr>
+              <td>187</td>
+              <td>Mango Pudding</td>
+            </tr>
+            <tr>
+              <td>188</td>
+              <td>Ice Cream</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+    <footer>
+        <p>&copy; 2024 祥瑞坊</p>
+    </footer>
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>
